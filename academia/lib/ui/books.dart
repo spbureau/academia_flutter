@@ -89,49 +89,45 @@ class AllBooks extends StatelessWidget {
     "Mathematics",
     "Governance &  Polictics",
     "Social Sciences"
-*/  
+*/
 
-class Book {
+class Book2 {
   final String bookCover;
   final String bookTitle;
   final String author;
   final String category;
-  
-  
-  Book(this.bookCover, this.bookTitle, this.author, this.category);
+
+  Book2(this.bookCover, this.bookTitle, this.author, this.category);
 }
 
-List<Book> myBook = [
-  Book(
-  "cloud_db.png",
-  "Google Data Analytics",
-  "James Gartner",
-  "Information Technology"),
+List<Book> myBook2 = [
+  Book("cloud_db.png", "Google Data Analytics", "James Gartner",
+      "Information Technology"),
 ];
 
-
 // 2nd Books Class
-// #Business & Entrepreneurship 
+// #Business & Entrepreneurship
 
 class MyBooks {
   final String bookCover;
   final String bookTitle;
   final String author;
   final String? date;
-  final String category;
+  // final String category;
   final String description;
-  
-  MyBooks(this.bookCover, this.bookTitle, this.author, this.date, this.description);
-}
 
-List<MyBooks> myBooks = [
   MyBooks(
-  "image",
-  "title",
-  "author",
-  "year"),
-  "category",
-  "desc"),
+      this.bookCover, this.bookTitle, this.author, this.date, this.description);
+}
+/*
+List<MyBooks> myBooks = [
+  // MyBooks(
+  // "image",
+  // "title",
+  // "author",
+  // "year"),
+  // "category",
+  // "desc"),
 
 MyBooks(
 "..."
@@ -183,6 +179,7 @@ MyBooks(
 'Malcolm Gladwell is a bestselling author best known for his nonfiction writing on psychology and sociology. In this psychology read, Gladwell analyses the \"outliers\" of the world — the best, the highest-achieving, the most famous people — to find what made them different and, thus, so successful.'),
 
 ];
+*/
 
 /*
 #Others:
@@ -205,7 +202,6 @@ The E-Myth Revisited: Why Most Small Business Don't Work and What to Do about It
 The Essential Drucker (2001), by Peter Drucker
 
 */
-
 
 // class BookBox extends StatelessWidget {
 //   const BookBox({super.key});
